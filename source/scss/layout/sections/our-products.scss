@@ -1,0 +1,80 @@
+// @media screen and (max-width: 1024px){
+
+// }
+.our-products{
+    .products-list{
+        ul{
+            display: flex;
+            gap: 30px;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin: 0;
+            list-style: none;
+            padding: 0 15px;
+            @media screen and (max-width: 1024px){
+                gap: 0px;
+                padding: 0 ;
+            }
+        } li{
+            @media screen and (max-width: 1024px){
+                width: 50%;
+                padding: 8px;
+                border-top: 1px solid #DFDEDB;
+                    &:nth-child(odd) {
+                        border-right: 1px solid #DFDEDB;
+                    }
+                    &:nth-child(1) {
+                        border-top: none;
+                    }
+                    &:nth-child(2) {
+                        border-top: none;
+                    }
+                }
+
+            .product-detales{
+                display: flex;
+                justify-content: space-between;
+                @media screen and (max-width: 1024px){
+                    font-size: 12px;
+                    line-height: 14px;
+                    flex-direction: column;
+                    }
+            }
+            .product-title{
+                font-weight: 400;
+                font-size: 12px;
+                @media screen and (max-width: 1024px){
+                    padding-bottom: 24px;
+                }
+            }
+            figure{
+                img{
+                    align-items: center;
+                    @media screen and (max-width: 1024px){
+                        width: 100%;
+                        height: 154px;
+                        }
+                }
+            }
+            &.is-hidden{
+                display: none;
+            }
+        }
+    }
+    .shopall{
+        margin-top: 24px;
+        @media screen and (max-width: 1024px){
+            margin-top: 0;
+        }
+        a{
+            display: block;
+            font-size: 12px;
+            text-decoration: none;
+            color: #323334;
+            text-transform: uppercase;
+        }
+        &.is-hide{
+            display: none;
+        }
+    }
+}

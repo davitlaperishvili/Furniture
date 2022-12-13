@@ -1,0 +1,40 @@
+.contact_us{
+    height: 680px;
+    margin: 80px 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    figure{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+
+    } 
+    .contact_us_text{
+        h3{
+            font-size: 72px;
+            color: #F5F4F3  ;
+            margin-bottom: 48px;
+            text-align: center;
+        }
+        form{
+            display: flex;
+            justify-content: center;
+            input{
+                width: 344px;
+                height: 46px;
+                background-color: transparent;
+                padding-left: 16px;
+                text-transform: uppercase;
+                border-radius: 8px;
+                border: 1px solid #DFDEDB;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,28 @@
+section.about_us{
+    display:flex;
+    .about_us_box
+    {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: $cmain ;
+     color: white;
+    }
+    .about_us_text
+    {
+        
+        width: 50%;
+        
+       
+    }
+    .about_us_title{
+        font-size: 36px;
+        margin-bottom: 48px;
+    }    
+    a{
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        margin-top: 24px;
+    }
+}
